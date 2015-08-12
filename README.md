@@ -6,6 +6,7 @@ This simple test reproduce this behavior.
 
 - It seems that the issue happens when the Content-Type isn't properly set.
 - Uncommenting line 53 of servlet.java seems to fix the issue: 
-	```java
-	//http_response.setContentType("text/html");
-	```
+
+```java
+//http_response.setContentType("text/html");
+```
